@@ -51,6 +51,7 @@ if __name__ == "__main__":
             'g': {'e': 2, 'b': 5},
             'h': {'e': 1, 'f': 3}}
 
+
     #grafos e a distancia entre cada vertices
     #inicia o grafo e ponto de origem e ponto final
     dijkstra(grafo,'s','h')
