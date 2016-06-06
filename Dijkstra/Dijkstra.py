@@ -16,7 +16,7 @@ def dijkstra(grafo,chave,destino,visitado=[],distancia={},anterior={}):
             ant = anterior.get(ant,None)
         print('Menor caminho: ' + str(caminho) + " andou = " + str(distancia[destino])) 
     else :     
-        # se e a execucao inicial inicializa
+        # se eh a execucao inicial inicializa a procura
         if not visitado: 
             distancia[chave] = 0
         # procura nos vizinhos
